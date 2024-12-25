@@ -44,9 +44,12 @@ pip install psutil selenium
 本软件仅支持提前登录到教务系统内网。不支持抢课开始后登录！！！
 
 在这里提供给后继开发者一个抢课开始后继续登录内网的思路：
-1.从统一门户修改JS文件里的重定向规则，使其重定向到内网。
-2.直接在部署在教育网上的服务器抓取cookie,不从portal.nxist.com抓取cookie,从cas.nist.edu.cn或者myst.nist.edu.cn抓取。但是这个可不简单，你得精通WEB后端。
-3.一定要了解清楚10.100.100.141的每一个端口是干什么的以及10.100.100.141和portal.nxist.com关系。
-4.可登录内网的有效cookie的route值为：adef3cfba742b03d8aed0b1f92f60144。
+
+1. 从统一门户修改JS文件里的重定向规则，使其重定向到内网。
+2. 直接在部署在教育网上的服务器抓取cookie,不从portal.nxist.com抓取cookie,从cas.nist.edu.cn或者myst.nist.edu.cn抓取。但是这个可不简单，你得精通WEB后端。
+3. ```
+   一定要了解清楚10.100.100.141的每一个端口是干什么的以及10.100.100.141和portal.nxist.com关系。
+   ```
+4. 可登录内网的有效cookie的route值为：adef3cfba742b03d8aed0b1f92f60144。
 
 **欢迎各位大佬基于我的思路二次开发！！！**
