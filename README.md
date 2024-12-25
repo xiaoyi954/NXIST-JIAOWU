@@ -33,6 +33,8 @@ python main.py
 pip install psutil selenium
 ```
 
+**小白用户直接点**https://www.alipan.com/s/7XFe4rkZ1uZ
+
 ## **如何使用？**
 
 首先连接好校园网。尽量用联通校园网，测试这两天移动校园网老是突然就使用不了内网了。
